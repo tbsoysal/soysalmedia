@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,14 +26,14 @@ const NavBar = () => {
           {/* Mobile CTA Button */}
           <a className="w-10 h-10 bg-linear-to-r from-[#2c55de] to-[#5243ad] rounded-full flex items-center justify-center md:hidden" href="tel:05522130004"><img src="./whatsappicon.svg" /></a>
           {/* Hamburger Icon */}
-          <a href="#" className="flex flex-col gap-1.5 justify-between p-3">
-            <span className="block w-[18px] h-[2px] bg-white"></span>
-            <span className="block w-[18px] h-[2px] bg-white"></span>
-            <span className="block w-[18px] h-[2px] bg-white"></span>
+          <a href="#" className="flex flex-col gap-1.5 justify-between p-3" onClick={() => setIsOpen(!isOpen)}>
+            <span className={"block w-[18px] h-[2px] bg-white transition-all duration-300 " + (isOpen ? "rotate-45 translate-y-2.5" : "rotate-0 translate-y-0")}></span>
+            <span className={"block w-[18px] h-[2px] bg-white transition-all duration-300 " + (isOpen ? "opacity-0" : "opacity-100")}></span>
+            <span className={"block w-[18px] h-[2px] bg-white transition-all duration-300 " + (isOpen ? "rotate-[-45deg] translate-y-[-6px]" : "rotate-0 translate-y-0")}></span>
           </a>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
 

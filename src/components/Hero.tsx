@@ -18,7 +18,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <section className="px-[16px]">
+    <section className="px-[16px] mb-[50px]">
       <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] md:mt-[200px] lg:text-[80px] lg:leading-[85px] lg:mt-[300px] lg:h-[70vh] h-[120px] leading-[35px] text-center text-[32px] px-1.5 font-[900] text-white mt-[160px] z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
       <p className="md:mt-[200px] lg:mt-0 lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white mt-[100px] text-center text-[16px]">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>
       <div className="mt-[30px] flex flex-col gap-[10px] md:flex-row md:max-w-[600px] md:mx-auto">

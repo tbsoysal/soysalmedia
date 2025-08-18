@@ -69,4 +69,18 @@
   .typed-cursor {
     color: #2c55de;
   }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-140%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 10s linear infinite;
+  }
 }
