@@ -18,10 +18,20 @@ const Hero = () => {
   }, [])
 
   return (
-    <section className="px-[16px] mb-[50px]">
-      <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] md:mt-[200px] lg:text-[80px] lg:leading-[85px] lg:mt-[300px] lg:h-[70vh] h-[120px] leading-[35px] text-center text-[32px] px-1.5 font-[900] text-white mt-[160px] z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
-      <p className="md:mt-[200px] lg:mt-0 lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white mt-[100px] text-center text-[16px]">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>
-      <div className="mt-[30px] flex flex-col gap-[10px] md:flex-row md:max-w-[600px] md:mx-auto">
+    <section className="relative px-[16px] mb-10">
+      {/* Mobile Background Image */}
+      <img src="https://proscom.ru/_next/static/media/main-bg-375.84ddc68f.jpg" className="absolute md:hidden top-0 right-0 left-0 z-[-2]" />
+      {/* Web Background Image */}
+      <img src="https://proscom.ru/_next/static/media/main-bg-768.1a182f30.jpg" className="hidden md:block absolute top-[-10%] right-0 left-0 z-[-2]" />
+      {/* Background Light Effect */}
+      <span className='absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-[100%] h-[100%] rounded-[50%] bg-[radial-gradient(50%_50%_at_50%_50%,rgba(52,81,212,0.19)_0%,rgba(115,115,115,0)_100%)] z-[-1] '></span>
+      {/* Heading Text */}
+      <div className="h-[60vh] md:h-[80vh] lg:h-[100vh] flex justify-center items-center">
+        <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] lg:text-[80px] lg:leading-[85px] leading-[35px] text-center text-[32px] font-[900] text-white z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
+      </div>
+
+      <p className="lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white text-center text-[16px] mb-5">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>
+      <div className="flex flex-col gap-[10px] md:flex-row md:max-w-[600px] md:mx-auto">
         <CtaButton buttonType="primary" />
         <CtaButton buttonType="secondary" />
       </div>
