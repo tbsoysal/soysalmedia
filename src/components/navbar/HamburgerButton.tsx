@@ -1,10 +1,17 @@
-import { useState } from "react";
+type Props = {
+  isMenuOpen: boolean;
+  setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}
 
-const HamburgerButton = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+const HamburgerButton = ({ isMenuOpen, setIsMenuOpen }: Props) => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    if (isMenuOpen) {
+      document.body.style.overflowY = '';
+    } else {
+      document.body.style.overflowY = 'hidden';
+    }
   };
 
   return (

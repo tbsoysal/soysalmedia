@@ -56,13 +56,11 @@
 
   html {
     font-family: 'Tilda Sans', sans-serif;
-    overflow-x: hidden;
   }
 
   body {
     font-family: 'Tilda Sans', sans-serif;
     background-color: #020818;
-    min-height: 200vh;
     overflow-x: hidden;
   }
 
@@ -72,7 +70,7 @@
 
   @keyframes scroll {
     to {
-      transform: translateX(calc(-50% - 6px));
+      transform: translateX(calc(-100%/3 - 3px));
     }
   }
 
