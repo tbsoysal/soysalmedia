@@ -18,7 +18,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <section className="relative px-[16px] mb-10">
+    <section className="relative px-[16px] mb-8 md:mb-11 lg:mb-[102px]">
       {/* Mobile Background Image */}
       <img src="https://proscom.ru/_next/static/media/main-bg-375.84ddc68f.jpg" className="absolute md:hidden top-0 right-0 left-0 z-[-2]" />
       {/* Web Background Image */}
