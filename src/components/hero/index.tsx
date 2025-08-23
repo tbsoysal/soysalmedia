@@ -26,8 +26,8 @@ const Hero = () => {
       {/* Background Light Effect */}
       <span className='absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-[100%] h-[100%] rounded-[50%] bg-[radial-gradient(50%_50%_at_50%_50%,rgba(52,81,212,0.19)_0%,rgba(115,115,115,0)_100%)] z-[-1] '></span>
       {/* Heading Text */}
-      <div className="h-[60vh] md:h-[80vh] lg:h-[100vh] flex justify-center items-center">
-        <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] lg:text-[80px] lg:leading-[85px] leading-[35px] text-center text-[32px] font-[900] text-white z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
+      <div className="h-[60vh] md:h-[80vh] lg:h-[100vh] lg:pb-15 flex justify-center items-center">
+        <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] lg:text-[115px] lg:leading-[115px] leading-[35px] text-center text-[32px] font-[700] text-white z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
       </div>
 
       <p className="lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white text-center text-[16px] mb-5">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>

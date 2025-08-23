@@ -77,4 +77,24 @@
   .animate-scroll {
     animation: scroll 10s linear infinite;
   }
+
+  .swiper-scrollbar {
+    background-color: green !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #232c3e !important;
+  }
+
+  .swiper-scrollbar-drag {
+    background-color: blue !important;
+    border-radius: 0 !important;
+    background-color: #232c3e !important;
+  }
+
+  /* move horizontal scrollbar to top */
+  .swiper-horizontal>.swiper-scrollbar {
+    position: relative !important;
+    margin-top: 24px;
+    height: 4px;
+  }
 }
