@@ -9,7 +9,6 @@ const Services = () => {
   const slideStyles = 'lg:!h-auto block max-w-[304px] !h-[288px] p-[31px] pb-[39px] border-[0.5px] border-[#49566f] rounded-[8px] bg-transparent'
   return (
     <section className="px-4 mb-10 relative">
-      <span className='absolute top-0 right-0 translate-x-1/2 w-[100%] h-[200%] rounded-[50%] bg-[radial-gradient(50%_50%_at_50%_50%,rgba(52,81,212,0.19)_0%,rgba(115,115,115,0)_100%)] z-[-1] '></span>
       <h2 className="text-center text-[24px] md:text-[48px] lg:text-[56px] font-[500] text-white mb-5">Dijital dünyada markanızı güçlendiren çözümler</h2>
       {/* Mobile Slider */}
       <Swiper
