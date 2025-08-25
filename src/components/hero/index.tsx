@@ -30,7 +30,7 @@ const Hero = () => {
         <h1 className="sm:text-[54px] sm:leading-[60px] md:text-[64px] md:leading-[70px] lg:text-[115px] lg:leading-[115px] leading-[35px] text-center text-[32px] font-[700] text-white z-[-2]">Soysal Media<br />işinizi <span ref={el} /></h1>
       </div>
 
-      <p className="lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white text-center text-[16px] mb-5">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>
+      <p className="lg:max-w-[600px] lg:text-[24px] lg:mx-auto text-white text-center text-[16px] mb-5 lg:mb-[54px]">Soysal Media, markanıza özel web tasarım, sosyal medya yönetimi ve dönüşüm odaklı dijital çözümler sunar.</p>
       <div className="flex flex-col gap-[10px] md:flex-row md:max-w-[600px] md:mx-auto">
         <CtaButton buttonType="primary" />
         <CtaButton buttonType="secondary" />

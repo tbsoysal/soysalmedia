@@ -7,7 +7,7 @@ type Props = {
 
 const CtaButton = (props: Props) => {
 
-  const baseClasses = "cursor-pointer py-[12px] w-full text-center text-white rounded-[4px]";
+  const baseClasses = "cursor-pointer py-[12px] w-full text-center text-white rounded-[4px] lg:px-[32px] lg:py-[24px]";
 
   const buttonVariants = {
     primary: {

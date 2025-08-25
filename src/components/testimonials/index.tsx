@@ -10,12 +10,14 @@ const Testimonials = () => {
       <div className="flex overflow-hidden max-w-[100vw] mx-auto">
         <div className="shrink-0 flex justify-between items-center gap-3 animate-scroll">
           {[...logos, ...logos, ...logos, ...logos, ...logos, ...logos].map((logo, id) => (
-            <img
-              key={id}
-              src={logo}
-              alt={`logo-${id}`}
-              className="h-30 inline-block"
-            />
+            <div className="w-[176px] h-[80px] flex justify-center items-center p-4">
+              <img
+                key={id}
+                src={logo}
+                alt={`logo-${id}`}
+                className="w-full inline-block"
+              />
+            </div>
           ))}
         </div>
       </div>
