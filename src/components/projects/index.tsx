@@ -23,16 +23,16 @@ const Projects = () => {
         className='md:!hidden'
       >
         <SwiperSlide className={slideStyles}>
-          Slide 1
+          Proje 1
         </SwiperSlide>
         <SwiperSlide className={slideStyles}>
-          Slide 2
+          Proje 2
         </SwiperSlide>
         <SwiperSlide className={slideStyles}>
-          Slide 3
+          Proje 3
         </SwiperSlide>
         <SwiperSlide className={slideStyles}>
-          Slide 4
+          Proje 4
         </SwiperSlide>
       </Swiper>
     </section>

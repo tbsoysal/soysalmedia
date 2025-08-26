@@ -3,7 +3,7 @@ import NavBar from '@/components/navbar';
 import Testimonials from '@/components/testimonials';
 import Services from '@/components/services';
 import Whyus from '@/components/whyus';
-import Projects from './components/projects/indes';
+import Projects from './components/projects';
 
 function App() {
   return (
