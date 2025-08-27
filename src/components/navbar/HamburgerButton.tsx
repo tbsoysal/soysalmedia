@@ -7,11 +7,11 @@ const HamburgerButton = ({ isMenuOpen, setIsMenuOpen }: Props) => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    if (isMenuOpen) {
-      document.body.style.overflowY = '';
-    } else {
-      document.body.style.overflowY = 'hidden';
-    }
+    // if (isMenuOpen) {
+    //   document.body.style.overflowY = '';
+    // } else {
+    //   document.body.style.overflowY = 'hidden';
+    // }
   };
 
   return (
