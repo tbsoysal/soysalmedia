@@ -5,6 +5,7 @@ import Services from '@/components/services';
 import Whyus from '@/components/whyus';
 import Projects from './components/projects';
 import Faq from './components/faq';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Whyus />
       <Projects />
       <Faq />
+      <Contact />
     </>
   )
 }
