@@ -1,6 +1,6 @@
 const Whyus = () => {
   return (
-    <section className="px-4 w-fit lg:max-w-[1300px] lg:w-auto mx-auto mb-4">
+    <section className="px-4 w-fit lg:max-w-[1300px] lg:w-auto mx-auto mb-[48px]">
       <div className="h-[11px] bg-transparent border-t-[0.5px] border-t-[#232c3e] rounded-[16px]"></div>
       <div className="lg:flex items-center justify-between w-[90%] mx-auto">
         <div className="px-4 pt-6 pb-8 text-white text-center lg:max-w-[600px] lg:text-start">

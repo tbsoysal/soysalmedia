@@ -15,8 +15,6 @@ const Services = () => {
         modules={[Scrollbar, Autoplay]}
         spaceBetween={12}
         slidesPerView={'auto'}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         scrollbar={{ draggable: true, hide: false }}
         loop={true}
         autoplay={{
