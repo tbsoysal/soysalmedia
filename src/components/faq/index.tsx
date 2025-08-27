@@ -20,7 +20,7 @@ const Faq = () => {
     },
   ]
   return (
-    <section className="px-4 mb-[48px] max-w-[80%] mx-auto">
+    <section className="px-4 mb-[48px] md:max-w-[80%] mx-auto">
       <h2 className='relative text-center text-[24px] md:text-[48px] lg:text-[56px] font-[500] text-white mb-5'>Sıkça Sorulan Sorular</h2>
       <div className="h-[11px] bg-transparent border-t-[0.5px] border-t-[#232c3e] rounded-[16px]"></div>
       <div>
