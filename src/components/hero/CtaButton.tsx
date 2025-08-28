@@ -29,6 +29,12 @@ const CtaButton = (props: Props) => {
     if (props.buttonType === 'primary') {
       e.preventDefault();
       messageToWhatsapp();
+    } else if (props.buttonType === 'secondary') {
+      e.preventDefault();
+      const link = document.createElement("a");
+      link.href = "./soysalmedia-sunum.pdf"; // public folder or external URL
+      link.download = "soysalmedia-sunum.pdf"; // file name for download
+      link.click();
     }
   }
 
